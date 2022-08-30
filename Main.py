@@ -6,7 +6,7 @@ from do import *
 while True:
     takeCommand()
     if "4" or "four" or "for" in takeCommand(): 
-        takeCommand()
+        #takeCommand()
         if_do(takeCommand())
         
         
