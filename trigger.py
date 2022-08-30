@@ -1,5 +1,6 @@
 import speech_recognition as sr
 from verbals import *
+from do import *
 
 def takeCommand():
      
@@ -13,13 +14,21 @@ def takeCommand():
   
     try:
         print("Recognizing...")   
-        query = r.recognize_google(audio, language ='en-in')
-        print(f"User said: {query}\n")
+        text = r.recognize_google(audio, language ='en-in')
+        print(f"User said: {text}\n")
   
     except Exception as e:
         print(e)   
         print("Unable to Recognize your voice.") 
         return "None"
      
-    return query
-takeCommand()
+    return text
+
+
+
+
+def if_do(command):
+    if "good morning" in command:
+        say("maybe its a good morning")
+        
+    

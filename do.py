@@ -13,4 +13,3 @@ def say(words):
     engine.runAndWait()
     
     
-say("hi there")
