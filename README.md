@@ -13,7 +13,9 @@ Modules needed:
 
 - Pyttsx3:- This module is used for the conversion of text to speech in a program it works offline. To install this module type the below command in the terminal.
 
- >pip install pyttsx3
+ >  pip install pyttsx3 
+ 
+ >  pip install wizzi_utils
 
 
 - Tkinter:- This module is used for building GUI and comes inbuilt with Python. This module comes built-in with Python. 
