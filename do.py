@@ -1,8 +1,8 @@
 import pyttsx3
-
+from verbals import *
 
 def say(words):
-    voicetype = 0  #!what voice is this (1 for male voice)(1 for female voice)
+    
     
     eng = pyttsx3.init() #initialize an instance
     
