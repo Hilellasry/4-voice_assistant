@@ -29,6 +29,7 @@ def takeCommand():
 
 def if_do(command):
     if "good morning" in command:
-        say("maybe its a good morning")
-        
+        say("maybe its a good morning... or maybe it's not")
+    if "4" or "four" or "for" in command:
+        say("yes yes, you not need to say twice")    
     
