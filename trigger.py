@@ -46,8 +46,8 @@ def if_do(command):
        #  break 
         if "joke" in command:
             say(pyjokes.get_joke(language="en", category="neutral"))
-        if "words" in command:
-            say("words")
+        if "poopoo" in command:
+            say("you poopoo, in your self")
         if "word" in command:
             say("words")
         if "word" in command:
